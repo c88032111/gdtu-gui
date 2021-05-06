@@ -1,0 +1,144 @@
+{
+    "confirm":"אישור",
+    "cancel":"ביטול",
+    "dialog_tit":"הפקודה",
+    "close":"סגור",
+    "confirm_you_active":"אשר את הפעולה שלך",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"בית",
+        "transfer":"העברה",
+        "contacts":"מגעים",
+        "setting":"הגדרות",
+        "total":"סך הכל"
+    },
+    "page_setting":{
+        "tit":"הגדרות",
+        "lang":"שפה",
+        "select":"בחר"
+    },
+    "page_contacts":{
+        "tit":"מגעים",
+        "add_dialog":"הוסף איש קשר",
+
+        "add_cont":{
+            "tit":"הזן פרטים ליצירת קשר",
+            "tag":"תגים",
+            "address":"מגעים",
+            "tag_placeholder":"הזן את תג התגובה של איש הקשר",
+            "address_placeholder":"הזן את חשבון איש הקשר"
+        },
+        "delete_dialog":{
+            "title":"אתה מסיר"
+        },
+        "msg_info":{
+            "no_tag":"הזן את שם החשבון",
+            "no_address":"הזן את כתובת החשבון",
+            "exist":"איש הקשר כבר קיים,"
+        }
+    },
+    "page_transfer":{
+        "from_address":"העברה החוצה",
+        "to_address":"לתוך",
+        "amount":"סכום",
+        "send_all":"שלח הכל",
+        "remark":"הערה",
+        "fees":"אגרות",
+        "total":"סך הכל",
+        "select":"בחר",
+        "no_account_info":"אין חשבון, צור או ייבא חשבון",
+        "contacts_dig":{
+            "select_placeholder":"בחר"
+        },
+        "confirm_dia":{
+            "title":"אשר",
+            "enter_passworld_tit":"הזן את הסיסמה שלך",
+            "enter_passworld_place":"הזן את הסיסמה שלך"
+        },
+        "msg_info":{
+            "decrypt_err":"ניתוח הארנק נכשל, עשויה להיות שגיאת סיסמה",
+            "send_success":"שלח הצלחה",
+            "send_error":"העסקה נכשלה: בדוק אם יש מספיק איזון ודמי כורה"
+        }
+    },
+    "page_account":{
+        "transfer_log":"היסטוריית עסקאות",
+        "transfer_log_null":"אין היסטוריית עסקאות",
+
+        "active_icon":{
+            "go_transfer":"התחל את ההעברה",
+            "import_keystore":"קיסטור",
+            "qrcode":"קוד QR"
+        },
+        "edit_dia":{
+            "tit":"שנה הערה",
+            "subtit":"סמן הערה עבור החשבון שלך"
+        },
+        "keystore":{
+            "tit":"לגבות את keystore",
+            "copy":"שכפל",
+            "download":"הורד keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"הכתובת הועתקה",
+            "key_copy_success":"הועתק בהצלחה"
+        }
+    },
+    "page_home":{
+        "import_account":"ייבא חשבון",
+        "add_account":"חשבון חדש",
+        "acc":"חשבון",
+        "create_dia":{
+            "create_tit":"צור חשבון",
+            "backup_tit":"גבה את החשבון החדש שלך",
+
+            "create_tag":"שם החשבון",
+            "create_pwd":"הגדר סיסמה",
+            "create_repwd":"אשר סיסמה",
+
+            "placeholder_tag":"הזן שם חשבון",
+            "placeholder_pwd":"הגדר סיסמת חשבון",
+            "placeholder_repwd":"אשר את סיסמת החשבון",
+            "strong_password":"הזן סיסמה חזקה, לפחות 8 ספרות",
+
+            "account_address":"חשבון",
+            "account_privateKey":"מפתח פרטי",
+            "account_download_keystore":"הורד את הקובץ keystore"
+        },
+        "import_dia":{
+            "tit":"ייבא חשבון",
+            "select_type":"בחר שיטת ייבוא",
+            "type_private":"מפתח פרטי",
+            "type_keystore":"קיסטור",
+
+            "placeholder_private":"הדבק את המפתח הפרטי כאן",
+            "placeholder_keystore":"אנא גרור את הקובץ keystore כאן",
+
+            "input_pwd":"הזן סיסמה",
+            "placeholder_pwd":"הזן את סיסמת החשבון שלך"
+
+        },
+        "remove_dia":{
+            "tit":"האם אתה בטוח שברצונך להסיר אותו?",
+            "remove_confrim":"אני בטוח להסיר",
+            "backup":"ודא שהחשבון מגובה כדי למנוע נזק לרכוש"
+        },
+        "msg_info":{
+            "exist":"חשבון זה כבר קיים, השם הוא",
+            "enter_password":"הזן את הסיסמה שלך",
+            "incons_password":"הסיסמה שהוזנה פעמיים אינה עקבית",
+            "error":"שגיאה:",
+            "imported_success":"ייבוא ​​הקובץ בהצלחה",
+            "enter_private":"הזן את המפתח",
+            "error_private":"ייבוא ​​החשבון נכשל, ייתכן שהוא המפתח הלא נכון",
+            "enter_keystore":"יש לייבא את הקובץ keystore הראשון",
+            "error_password":"ייבוא ​​החשבון נכשל, ייתכן שזו סיסמה שגויה",
+            "remove_success":"הוסר בהצלחה",
+            "create_success":"נוצר בהצלחה",
+            "save":"אנא שמור את keystore או מפתח פרטי ואל תשתף אותו עם אף אחד!"
+        }
+    }
+
+}

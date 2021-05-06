@@ -1,0 +1,144 @@
+{
+    "confirm":"Dearbhú",
+    "cancel":"Cealú",
+    "dialog_tit":"Pras",
+    "close":"Dúnta",
+    "confirm_you_active":"Deimhnigh d'oibriú le do thoil",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Baile",
+        "transfer":"Aistriú",
+        "contacts":"Teagmhálacha",
+        "setting":"Socruithe",
+        "total":"Iomlán"
+    },
+    "page_setting":{
+        "tit":"Socruithe",
+        "lang":"Teanga",
+        "select":"Roghnaigh"
+    },
+    "page_contacts":{
+        "tit":"Teagmhálacha",
+        "add_dialog":"Cuir teagmhála leis",
+
+        "add_cont":{
+            "tit":"Cuir isteach eolas teagmhála",
+            "tag":"Clibeanna",
+            "address":"Teagmhálacha",
+            "tag_placeholder":"Cuir isteach tag tagartha an teagmhála",
+            "address_placeholder":"Cuir isteach an gcuntas teagmhála"
+        },
+        "delete_dialog":{
+            "title":"Tá tú ag baint úsáide as"
+        },
+        "msg_info":{
+            "no_tag":"Cuir isteach ainm an chuntas",
+            "no_address":"Cuir isteach an seoladh cuntas",
+            "exist":"Tá an teagmháil ann cheana féin,"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Aistriú amach",
+        "to_address":"Isteach",
+        "amount":"Méid",
+        "send_all":"Seol go léir",
+        "remark":"Nóta",
+        "fees":"Táillí",
+        "total":"Iomlán",
+        "select":"Roghnaigh",
+        "no_account_info":"Níl aon chuntas agat, le do thoil cruthaigh nó cuntas a allmhairiú",
+        "contacts_dig":{
+            "select_placeholder":"Roghnaigh"
+        },
+        "confirm_dia":{
+            "title":"Deimhnigh le do thoil",
+            "enter_passworld_tit":"Cuir isteach do phasfhocal",
+            "enter_passworld_place":"Cuir isteach do phasfhocal"
+        },
+        "msg_info":{
+            "decrypt_err":"D'fhéadfadh earráid phasfhocal a bheith i gceist le parsáil sa sparán",
+            "send_success":"Seol rath",
+            "send_error":"Theip ar an Idirbheart: Seiceáil le do thoil má tá cothromaíocht leordhóthanach agus táille an mhinéir"
+        }
+    },
+    "page_account":{
+        "transfer_log":"Stair na hidirbhearta",
+        "transfer_log_null":"Uimh stair idirbheart",
+
+        "active_icon":{
+            "go_transfer":"Aistriú a thosú",
+            "import_keystore":"Eochairchlár",
+            "qrcode":"QR cód"
+        },
+        "edit_dia":{
+            "tit":"Nóta a mhodhnú",
+            "subtit":"Nóta a mharcáil le do chuntas"
+        },
+        "keystore":{
+            "tit":"Ar ais suas an eochairchlár",
+            "copy":"Dúblach",
+            "download":"Íoslódáil eochairchlár"
+        },
+        "msg_info":{
+            "ads_copy_success":"Tá an seoladh cóipeáilte",
+            "key_copy_success":"Cóipeáil go rathúil"
+        }
+    },
+    "page_home":{
+        "import_account":"Cuntas iompórtála",
+        "add_account":"Cuntas nua",
+        "acc":"Cuntas",
+        "create_dia":{
+            "create_tit":"Cruthaigh cuntas",
+            "backup_tit":"Cuir suas do chuntas nua ar ais",
+
+            "create_tag":"Ainm an chuntas",
+            "create_pwd":"Socraigh focal faire",
+            "create_repwd":"Dearbhaigh focal faire",
+
+            "placeholder_tag":"Socraigh ainm an chuntas le do thoil",
+            "placeholder_pwd":"Socraigh an focal faire cuntas le do thoil",
+            "placeholder_repwd":"Dearbhaigh an focal faire chuntais",
+            "strong_password":"Cuir isteach focal faire láidir, 8 dhigit ar a laghad",
+
+            "account_address":"Cuntas",
+            "account_privateKey":"Eochair phríobháideach",
+            "account_download_keystore":"Íoslódáil an comhad eochairchló"
+        },
+        "import_dia":{
+            "tit":"Cuntas iompórtála",
+            "select_type":"Roghnaigh modh allmhairithe",
+            "type_private":"Eochair phríobháideach",
+            "type_keystore":"Eochairchlár",
+
+            "placeholder_private":"Déan an eochair phríobháideach a ghreamú anseo",
+            "placeholder_keystore":"Tarraing an comhad eochairchló anseo anseo",
+
+            "input_pwd":"Cuir isteach focal faire",
+            "placeholder_pwd":"Cuir isteach do phasfhocal cuntas"
+
+        },
+        "remove_dia":{
+            "tit":"An bhfuil tú cinnte gur mhaith leat é a bhaint?",
+            "remove_confrim":"Táim cinnte go mbainfí as",
+            "backup":"Déan cinnte go bhfuil an cuntas curtha ar fáil chun damáiste maoine a sheachaint"
+        },
+        "msg_info":{
+            "exist":"Tá an cuntas seo ann cheana agus is é an t-ainm atá ann",
+            "enter_password":"Cuir isteach do phasfhocal",
+            "incons_password":"Tá an focal faire isteach dhá uair neamhréireach",
+            "error":"Earráid:",
+            "imported_success":"Iompórtáil comhad go rath",
+            "enter_private":"Cuir isteach an eochair",
+            "error_private":"Theip ar an gcuntas a allmhairiú, b'fhéidir gurb é an eochair mícheart é",
+            "enter_keystore":"Cuir isteach an comhad eochaircheap ar dtús",
+            "error_password":"Theip ar chuntas a allmhairiú, d'fhéadfadh sé gur focal faire mícheart é",
+            "remove_success":"Bainte go rathúil",
+            "create_success":"Cruthaithe go rathúil",
+            "save":"Sábháil an eochairchlár nó an eochair phríobháideach agus ná é a roinnt le duine ar bith!"
+        }
+    }
+
+}

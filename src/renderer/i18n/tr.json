@@ -1,0 +1,144 @@
+{
+    "confirm":"onaylamak",
+    "cancel":"iptal edildi",
+    "dialog_tit":"çabuk",
+    "close":"yakın",
+    "confirm_you_active":"Lütfen operasyonunuzu onaylayın",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"ev",
+        "transfer":"transfer",
+        "contacts":"temas",
+        "setting":"kurmak",
+        "total":"toplam"
+    },
+    "page_setting":{
+        "tit":"kurmak",
+        "lang":"dil",
+        "select":"Seçiniz"
+    },
+    "page_contacts":{
+        "tit":"temas",
+        "add_dialog":"Bir kişi ekle",
+
+        "add_cont":{
+            "tit":"İletişim bilgilerini giriniz",
+            "tag":"etiket",
+            "address":"temas",
+            "tag_placeholder":"Lütfen kişinin yorum etiketini girin",
+            "address_placeholder":"Lütfen kişi hesabını giriniz"
+        },
+        "delete_dialog":{
+            "title":"Sen kaldırıyorsun"
+        },
+        "msg_info":{
+            "no_tag":"Lütfen hesap adını giriniz",
+            "no_address":"Lütfen hesap adresini giriniz",
+            "exist":"Kişi zaten var,"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Transfer",
+        "to_address":"içine",
+        "amount":"para",
+        "send_all":"Tümünü gönder",
+        "remark":"düşünce",
+        "fees":"harç",
+        "total":"toplam",
+        "select":"Seçiniz",
+        "no_account_info":"Hesap yok, lütfen hesabı oluştur veya içe aktar",
+        "contacts_dig":{
+            "select_placeholder":"Seçiniz"
+        },
+        "confirm_dia":{
+            "title":"Lütfen onaylayın",
+            "enter_passworld_tit":"Lütfen şifrenizi giriniz",
+            "enter_passworld_place":"Lütfen şifrenizi giriniz"
+        },
+        "msg_info":{
+            "decrypt_err":"Cüzdan ayrıştırma işlemi başarısız oldu, şifre hatası olabilir",
+            "send_success":"Başarı gönder",
+            "send_error":"İşlem başarısız oldu: Lütfen yeterli bakiye ve maden ücreti olup olmadığını kontrol edin"
+        }
+    },
+    "page_account":{
+        "transfer_log":"İşlem geçmişi",
+        "transfer_log_null":"İşlem geçmişi yok",
+
+        "active_icon":{
+            "go_transfer":"Aktarımı başlat",
+            "import_keystore":"keystore",
+            "qrcode":"QR kodu"
+        },
+        "edit_dia":{
+            "tit":"Notu değiştir",
+            "subtit":"Hesabınız için bir notu işaretle"
+        },
+        "keystore":{
+            "tit":"Anahtar deposunu yedekle",
+            "copy":"kopya",
+            "download":"Anahtar deposu indir"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adres kopyalandı",
+            "key_copy_success":"Başarıyla kopyalandı"
+        }
+    },
+    "page_home":{
+        "import_account":"İthalat hesabı",
+        "add_account":"Yeni hesap",
+        "acc":"hesap",
+        "create_dia":{
+            "create_tit":"Bir hesap oluştur",
+            "backup_tit":"Yeni hesabınızı yedekleyin",
+
+            "create_tag":"Hesap adı",
+            "create_pwd":"Şifre ayarla",
+            "create_repwd":"Şifreyi onayla",
+
+            "placeholder_tag":"Lütfen hesap adını giriniz",
+            "placeholder_pwd":"Lütfen hesap şifresini ayarla",
+            "placeholder_repwd":"Lütfen hesap şifresini onaylayın",
+            "strong_password":"Güçlü bir şifre girin, en az 8 basamak",
+
+            "account_address":"hesap",
+            "account_privateKey":"Özel anahtar",
+            "account_download_keystore":"Anahtar deposu dosyasını indir"
+        },
+        "import_dia":{
+            "tit":"İthalat hesabı",
+            "select_type":"Lütfen ithalat yöntemini seçiniz",
+            "type_private":"Özel anahtar",
+            "type_keystore":"deposu",
+
+            "placeholder_private":"Lütfen özel anahtarı buraya yapıştırın",
+            "placeholder_keystore":"Lütfen anahtar deposu dosyasını buraya sürükleyin",
+
+            "input_pwd":"Şifre girin",
+            "placeholder_pwd":"Lütfen hesap şifrenizi girin"
+
+        },
+        "remove_dia":{
+            "tit":"Onu kaldırmak istediğinden emin misin?",
+            "remove_confrim":"Çıkarmak için eminim",
+            "backup":"Lütfen mülk hasarını önlemek için hesabın yedeklendiğinden emin olun."
+        },
+        "msg_info":{
+            "exist":"Bu hesap zaten var, isim",
+            "enter_password":"Lütfen şifrenizi giriniz",
+            "incons_password":"İki kez girilen şifre tutarsız",
+            "error":"Hata:",
+            "imported_success":"Dosyayı başarıyla içe aktar",
+            "enter_private":"Lütfen anahtarı giriniz",
+            "error_private":"Hesabı içe aktarılamadı, yanlış anahtar olabilir",
+            "enter_keystore":"Lütfen önce anahtar deposu dosyasını içe aktarın",
+            "error_password":"Hesap içe aktarılamadı, yanlış şifre olabilir",
+            "remove_success":"Başarıyla kaldırıldı",
+            "create_success":"Başarıyla oluşturuldu",
+            "save":"Lütfen anahtar deponuzu veya özel anahtarınızı kaydedin ve kimseyle paylaşmayın!"
+        }
+    }
+
+}

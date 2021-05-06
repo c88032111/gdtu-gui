@@ -1,0 +1,144 @@
+{
+    "confirm":"Konfirmasi",
+    "cancel":"Pembatalan",
+    "dialog_tit":"Prompt",
+    "close":"Ditutup",
+    "confirm_you_active":"Mangga konfirmasi operasi sampeyan",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Ngarep",
+        "transfer":"Transfer",
+        "contacts":"Kontak",
+        "setting":"Setelan",
+        "total":"Total"
+    },
+    "page_setting":{
+        "tit":"Setelan",
+        "lang":"Basa",
+        "select":"Mangga pilih"
+    },
+    "page_contacts":{
+        "tit":"Kontak",
+        "add_dialog":"Tambahake kontak",
+
+        "add_cont":{
+            "tit":"Ketik informasi kontak",
+            "tag":"Tags",
+            "address":"Kontak",
+            "tag_placeholder":"Mangga ketik tag komentar",
+            "address_placeholder":"Mangga mlebu akun kontak"
+        },
+        "delete_dialog":{
+            "title":"Sampeyan ngilangi"
+        },
+        "msg_info":{
+            "no_tag":"Mangga ketik jeneng akun",
+            "no_address":"Mangga ketik alamat akun",
+            "exist":"Kontak wis ana,"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Nransfer metu",
+        "to_address":"Into",
+        "amount":"Jumlah",
+        "send_all":"Kirim kabeh",
+        "remark":"Cathetan",
+        "fees":"Biaya",
+        "total":"Total",
+        "select":"Mangga pilih",
+        "no_account_info":"Ora ana akun, mangga nggawe utawa ngimpor akun",
+        "contacts_dig":{
+            "select_placeholder":"Mangga pilih"
+        },
+        "confirm_dia":{
+            "title":"Mangga konfirmasi",
+            "enter_passworld_tit":"Mangga ketik sandhi",
+            "enter_passworld_place":"Mangga ketik sandhi"
+        },
+        "msg_info":{
+            "decrypt_err":"Parsing Wallet gagal, bisa dadi kesalahan sandi",
+            "send_success":"Kirim sukses",
+            "send_error":"Transaksi gagal: Mangga dipriksa manawa ana keseimbangan sing cukup lan ragad penambang"
+        }
+    },
+    "page_account":{
+        "transfer_log":"Sajarah transaksi",
+        "transfer_log_null":"Ora ana riwayat transaksi",
+
+        "active_icon":{
+            "go_transfer":"Miwiti transfer",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
+        "edit_dia":{
+            "tit":"Ngowahi cathetan",
+            "subtit":"Tandai cathetan kanggo akun sampeyan"
+        },
+        "keystore":{
+            "tit":"Back up keystore",
+            "copy":"Duplikat",
+            "download":"Download keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Alamat wis disalin",
+            "key_copy_success":"Kasil disalin"
+        }
+    },
+    "page_home":{
+        "import_account":"Impor akun",
+        "add_account":"Akun anyar",
+        "acc":"Akun",
+        "create_dia":{
+            "create_tit":"Nggawe akun",
+            "backup_tit":"Gawe akun anyar",
+
+            "create_tag":"Jeneng akun",
+            "create_pwd":"Setel tembung sandhi",
+            "create_repwd":"Konfirmasi tembung sandi",
+
+            "placeholder_tag":"Mangga nyetel jeneng akun",
+            "placeholder_pwd":"Mangga nyetel akun sandhi",
+            "placeholder_repwd":"Konfirmasi sandhi akun",
+            "strong_password":"Ketik sandhi sing kuwat, minimal 8 digit",
+
+            "account_address":"Akun",
+            "account_privateKey":"Tombol pribadi",
+            "account_download_keystore":"Ngundhuh file keystore"
+        },
+        "import_dia":{
+            "tit":"Impor akun",
+            "select_type":"Mangga pilih metode ngimpor",
+            "type_private":"Tombol pribadi",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Mangga dipindhah tombol pribadi ing kene",
+            "placeholder_keystore":"Monggo seret file keystore ing kene",
+
+            "input_pwd":"Ketik sandhi",
+            "placeholder_pwd":"Mangga ketik sandhi akun"
+
+        },
+        "remove_dia":{
+            "tit":"Apa sampeyan pengin mbusak?",
+            "remove_confrim":"Aku arep mbusak",
+            "backup":"Priksa akun kasebut wis digawe kanggo nyegah karusakan properti"
+        },
+        "msg_info":{
+            "exist":"Akun iki wis ana, jeneng kasebut",
+            "enter_password":"Mangga ketik sandhi",
+            "incons_password":"Tembung sandhi sing kaping pindho ora konsisten",
+            "error":"Kesalahan:",
+            "imported_success":"Ngimpor file kanthi sukses",
+            "enter_private":"Mangga ketik tombol",
+            "error_private":"Gagal ngimpor akun, bisa dadi kunci sing salah",
+            "enter_keystore":"Mangga ngimpor file keystore dhisik",
+            "error_password":"Gagal ngimpor akun, bisa dadi tembung seng salah",
+            "remove_success":"Dibusak kasil",
+            "create_success":"Digawe sukses",
+            "save":"Monggo simpen tombol keystore utawa pribadi lan aja bareng karo sapa waé!"
+        }
+    }
+
+}

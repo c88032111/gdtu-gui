@@ -1,0 +1,144 @@
+{
+    "confirm":"Confirmación",
+    "cancel":"Cancelación",
+    "dialog_tit":"Prompt",
+    "close":"Cerrado",
+    "confirm_you_active":"Por favor confirme su operación",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Inicio",
+        "transfer":"Transferir",
+        "contacts":"Contactos",
+        "setting":"Configuraciones",
+        "total":"Total"
+    },
+    "page_setting":{
+        "tit":"Configuraciones",
+        "lang":"Idioma",
+        "select":"Por favor selecciona"
+    },
+    "page_contacts":{
+        "tit":"Contactos",
+        "add_dialog":"Agrega un contacto",
+
+        "add_cont":{
+            "tit":"Ingrese la información de contacto",
+            "tag":"Etiquetas",
+            "address":"Contactos",
+            "tag_placeholder":"Por favor ingrese la etiqueta de comentario del contacto",
+            "address_placeholder":"Por favor ingrese la cuenta de contacto"
+        },
+        "delete_dialog":{
+            "title":"Estás eliminando"
+        },
+        "msg_info":{
+            "no_tag":"Por favor ingrese el nombre de la cuenta",
+            "no_address":"Por favor ingrese la dirección de la cuenta",
+            "exist":"El contacto ya existe,"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Transferir fuera",
+        "to_address":"En",
+        "amount":"Monto",
+        "send_all":"Enviar todo",
+        "remark":"Nota",
+        "fees":"Honorarios",
+        "total":"Total",
+        "select":"Por favor selecciona",
+        "no_account_info":"Sin cuenta, crea o importa una cuenta",
+        "contacts_dig":{
+            "select_placeholder":"Por favor selecciona"
+        },
+        "confirm_dia":{
+            "title":"Por favor confirme",
+            "enter_passworld_tit":"Por favor ingrese su contraseña",
+            "enter_passworld_place":"Por favor ingrese su contraseña"
+        },
+        "msg_info":{
+            "decrypt_err":"El análisis de Wallet falló, puede haber un error de contraseña",
+            "send_success":"Enviar el exito",
+            "send_error":"Transacción fallida: verifique si hay saldo suficiente y la tarifa del minero"
+        }
+    },
+    "page_account":{
+        "transfer_log":"Historial de transacciones",
+        "transfer_log_null":"Sin historial de transacciones",
+
+        "active_icon":{
+            "go_transfer":"Iniciar transferencia",
+            "import_keystore":"Keystore",
+            "qrcode":"Código QR"
+        },
+        "edit_dia":{
+            "tit":"Modificar nota",
+            "subtit":"Marque una nota para su cuenta"
+        },
+        "keystore":{
+            "tit":"Haga una copia de seguridad del almacén de claves",
+            "copy":"Duplicado",
+            "download":"Descargar keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"La dirección ha sido copiada",
+            "key_copy_success":"Copiado con éxito"
+        }
+    },
+    "page_home":{
+        "import_account":"Importar cuenta",
+        "add_account":"Nueva cuenta",
+        "acc":"Cuenta",
+        "create_dia":{
+            "create_tit":"Crea una cuenta",
+            "backup_tit":"Haga una copia de seguridad de su nueva cuenta",
+
+            "create_tag":"Nombre de la cuenta",
+            "create_pwd":"Establecer contraseña",
+            "create_repwd":"Confirmar contraseña",
+
+            "placeholder_tag":"Por favor configure el nombre de la cuenta",
+            "placeholder_pwd":"Configura la contraseña de la cuenta",
+            "placeholder_repwd":"Por favor confirme la contraseña de la cuenta",
+            "strong_password":"Ingrese una contraseña segura, al menos 8 dígitos",
+
+            "account_address":"Cuenta",
+            "account_privateKey":"Clave privada",
+            "account_download_keystore":"Descargue el archivo keystore"
+        },
+        "import_dia":{
+            "tit":"Importar cuenta",
+            "select_type":"Seleccione el método de importación",
+            "type_private":"Clave privada",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Por favor, pegue la clave privada aquí",
+            "placeholder_keystore":"Arrastre el archivo de almacén de claves aquí",
+
+            "input_pwd":"Ingresa la contraseña",
+            "placeholder_pwd":"Por favor ingrese la contraseña de su cuenta"
+
+        },
+        "remove_dia":{
+            "tit":"¿Seguro que quieres eliminarlo?",
+            "remove_confrim":"Estoy seguro de eliminar",
+            "backup":"Asegúrese de que la cuenta haya sido respaldada para evitar daños a la propiedad"
+        },
+        "msg_info":{
+            "exist":"Esta cuenta ya existe, el nombre es",
+            "enter_password":"Por favor ingrese su contraseña",
+            "incons_password":"La contraseña ingresada dos veces es inconsistente",
+            "error":"Error:",
+            "imported_success":"Importar archivo exitosamente",
+            "enter_private":"Por favor ingrese la clave",
+            "error_private":"Error al importar la cuenta, puede ser la clave incorrecta",
+            "enter_keystore":"Importa primero el archivo de almacén de claves",
+            "error_password":"Error al importar la cuenta, puede ser una contraseña incorrecta",
+            "remove_success":"Eliminado con éxito",
+            "create_success":"Creado con éxito",
+            "save":"¡Guarde su almacén de claves o clave privada y no la comparta con nadie!"
+        }
+    }
+
+}

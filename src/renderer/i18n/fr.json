@@ -1,0 +1,144 @@
+{
+    "confirm":"Confirmation",
+    "cancel":"Annulation",
+    "dialog_tit":"Demander",
+    "close":"Fermé",
+    "confirm_you_active":"S'il vous plaît confirmer votre opération",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Accueil",
+        "transfer":"Transfert",
+        "contacts":"Contacts",
+        "setting":"Paramètres",
+        "total":"Total"
+    },
+    "page_setting":{
+        "tit":"Paramètres",
+        "lang":"Langue",
+        "select":"Veuillez sélectionner"
+    },
+    "page_contacts":{
+        "tit":"Contacts",
+        "add_dialog":"Ajouter un contact",
+
+        "add_cont":{
+            "tit":"Entrez les informations de contact",
+            "tag":"Tags",
+            "address":"Contacts",
+            "tag_placeholder":"Veuillez entrer le tag de commentaire du contact",
+            "address_placeholder":"Veuillez entrer le compte de contact"
+        },
+        "delete_dialog":{
+            "title":"Vous supprimez"
+        },
+        "msg_info":{
+            "no_tag":"Veuillez entrer le nom du compte",
+            "no_address":"Veuillez entrer l'adresse du compte",
+            "exist":"Le contact existe déjà,"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Transférer",
+        "to_address":"Dans",
+        "amount":"Montant",
+        "send_all":"Envoyer tout",
+        "remark":"Remarque",
+        "fees":"Les frais",
+        "total":"Total",
+        "select":"Veuillez sélectionner",
+        "no_account_info":"Pas de compte, veuillez créer ou importer un compte",
+        "contacts_dig":{
+            "select_placeholder":"Veuillez sélectionner"
+        },
+        "confirm_dia":{
+            "title":"Veuillez confirmer",
+            "enter_passworld_tit":"Veuillez entrer votre mot de passe",
+            "enter_passworld_place":"Veuillez entrer votre mot de passe"
+        },
+        "msg_info":{
+            "decrypt_err":"Échec de l'analyse du portefeuille, peut être une erreur de mot de passe",
+            "send_success":"Envoyer le succès",
+            "send_error":"La transaction a échoué: Veuillez vérifier s'il y a un solde suffisant et les frais de mineur"
+        }
+    },
+    "page_account":{
+        "transfer_log":"Historique des transactions",
+        "transfer_log_null":"Aucun historique de transaction",
+
+        "active_icon":{
+            "go_transfer":"Initier le transfert",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
+        "edit_dia":{
+            "tit":"Modifier la note",
+            "subtit":"Marquer une note pour votre compte"
+        },
+        "keystore":{
+            "tit":"Sauvegarder le fichier de clés",
+            "copy":"Dupliquer",
+            "download":"Télécharger le fichier de clés"
+        },
+        "msg_info":{
+            "ads_copy_success":"L'adresse a été copiée",
+            "key_copy_success":"Copié avec succès"
+        }
+    },
+    "page_home":{
+        "import_account":"Importer un compte",
+        "add_account":"Nouveau compte",
+        "acc":"Compte",
+        "create_dia":{
+            "create_tit":"Créer un compte",
+            "backup_tit":"Sauvegarder votre nouveau compte",
+
+            "create_tag":"Nom du compte",
+            "create_pwd":"Définir le mot",
+            "create_repwd":"Confirmer le mot",
+
+            "placeholder_tag":"Veuillez définir le nom du compte",
+            "placeholder_pwd":"Veuillez définir le mot de passe du compte",
+            "placeholder_repwd":"Veuillez confirmer le mot de passe du compte",
+            "strong_password":"Entrez un mot de passe fort, au moins 8 chiffres",
+
+            "account_address":"Compte",
+            "account_privateKey":"Clé privée",
+            "account_download_keystore":"Télécharger le fichier keystore"
+        },
+        "import_dia":{
+            "tit":"Importer un compte",
+            "select_type":"Veuillez sélectionner la méthode d'importation",
+            "type_private":"Clé privée",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Veuillez coller la clé privée ici",
+            "placeholder_keystore":"Faites glisser le fichier keystore ici",
+
+            "input_pwd":"Entrer le mot",
+            "placeholder_pwd":"Veuillez entrer le mot de passe de votre compte"
+
+        },
+        "remove_dia":{
+            "tit":"Êtes-vous sûr de vouloir l'enlever?",
+            "remove_confrim":"Je suis sûr d'enlever",
+            "backup":"Veuillez vous assurer que le compte a été sauvegardé pour éviter les dommages matériels"
+        },
+        "msg_info":{
+            "exist":"Ce compte existe déjà, le nom est",
+            "enter_password":"Veuillez entrer votre mot de passe",
+            "incons_password":"Le mot de passe entré deux fois est incohérent",
+            "error":"Erreur:",
+            "imported_success":"Importer le fichier avec succès",
+            "enter_private":"Veuillez entrer la clé",
+            "error_private":"Impossible d'importer le compte, cela peut être la mauvaise clé",
+            "enter_keystore":"Veuillez d'abord importer le fichier keystore",
+            "error_password":"Impossible d'importer le compte, il peut s'agir d'un mot de passe incorrect",
+            "remove_success":"Retiré avec succès",
+            "create_success":"Créé avec succès",
+            "save":"Veuillez sauvegarder votre fichier de clés ou votre clé privée et ne le partagez avec personne!"
+        }
+    }
+
+}

@@ -1,0 +1,144 @@
+{
+    "confirm":"Potrditev",
+    "cancel":"Odpoved",
+    "dialog_tit":"Poziv",
+    "close":"Zaprto",
+    "confirm_you_active":"Potrdite svoje delovanje",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Domov",
+        "transfer":"Prenos",
+        "contacts":"Stiki",
+        "setting":"Nastavitve",
+        "total":"Skupaj"
+    },
+    "page_setting":{
+        "tit":"Nastavitve",
+        "lang":"Jezik",
+        "select":"Prosim izberite"
+    },
+    "page_contacts":{
+        "tit":"Stiki",
+        "add_dialog":"Dodaj stik",
+
+        "add_cont":{
+            "tit":"Vnesite podatke za stik",
+            "tag":"Oznake",
+            "address":"Stiki",
+            "tag_placeholder":"Vnesite oznako za stik osebe",
+            "address_placeholder":"Vnesite kontaktni račun"
+        },
+        "delete_dialog":{
+            "title":"Odstranite"
+        },
+        "msg_info":{
+            "no_tag":"Vnesite ime računa",
+            "no_address":"Vnesite naslov računa",
+            "exist":"Stik že obstaja,"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Prenesi ven",
+        "to_address":"Into",
+        "amount":"Znesek",
+        "send_all":"Pošlji vse",
+        "remark":"Opomba",
+        "fees":"Pristojbine",
+        "total":"Skupaj",
+        "select":"Prosim izberite",
+        "no_account_info":"Brez računa, ustvarite ali uvozite račun",
+        "contacts_dig":{
+            "select_placeholder":"Prosim izberite"
+        },
+        "confirm_dia":{
+            "title":"Prosimo, potrdite",
+            "enter_passworld_tit":"Vnesite geslo",
+            "enter_passworld_place":"Vnesite geslo"
+        },
+        "msg_info":{
+            "decrypt_err":"Razčlenjevanje z denarnico ni uspelo, je lahko napaka gesla",
+            "send_success":"Pošlji uspeh",
+            "send_error":"Transakcija ni uspela: preverite, ali obstaja dovolj ravnotežja in pristojbina za rudarje"
+        }
+    },
+    "page_account":{
+        "transfer_log":"Zgodovina transakcij",
+        "transfer_log_null":"Brez zgodovine transakcij",
+
+        "active_icon":{
+            "go_transfer":"Začnite prenos",
+            "import_keystore":"Keystore",
+            "qrcode":"QR kodo"
+        },
+        "edit_dia":{
+            "tit":"Spremeni beležko",
+            "subtit":"Označite opombo za svoj račun"
+        },
+        "keystore":{
+            "tit":"Varnostno kopirajte varnostno kopijo",
+            "copy":"Podvoji",
+            "download":"Prenesite ključno besedo"
+        },
+        "msg_info":{
+            "ads_copy_success":"Naslov je bil kopiran",
+            "key_copy_success":"Uspešno kopiran"
+        }
+    },
+    "page_home":{
+        "import_account":"Uvoz računa",
+        "add_account":"Nov račun",
+        "acc":"Račun",
+        "create_dia":{
+            "create_tit":"Ustvarite račun",
+            "backup_tit":"Varnostno kopirajte svoj novi račun",
+
+            "create_tag":"Ime računa",
+            "create_pwd":"Nastavite geslo",
+            "create_repwd":"Potrdite geslo",
+
+            "placeholder_tag":"Nastavite ime računa",
+            "placeholder_pwd":"Nastavite geslo za račun",
+            "placeholder_repwd":"Potrdite geslo za račun",
+            "strong_password":"Vnesite močno geslo, najmanj 8 številk",
+
+            "account_address":"Račun",
+            "account_privateKey":"Zasebni ključ",
+            "account_download_keystore":"Prenesite datoteko keystore"
+        },
+        "import_dia":{
+            "tit":"Uvoz računa",
+            "select_type":"Izberite način uvoza",
+            "type_private":"Zasebni ključ",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Prosimo, prilepite zasebni ključ tukaj",
+            "placeholder_keystore":"Povlecite datoteko keystore tukaj",
+
+            "input_pwd":"Vnesite geslo",
+            "placeholder_pwd":"Vnesite geslo za račun"
+
+        },
+        "remove_dia":{
+            "tit":"Ali ste prepričani, da ga želite odstraniti?",
+            "remove_confrim":"Prepričan sem, da ga odstranim",
+            "backup":"Prepričajte se, da je bil račun varnostno kopiran, da se izognete nepremoženjski škodi"
+        },
+        "msg_info":{
+            "exist":"Ta račun že obstaja, ime je",
+            "enter_password":"Vnesite geslo",
+            "incons_password":"Dvakrat vneseno geslo ni v skladu",
+            "error":"Napaka:",
+            "imported_success":"Uvozite datoteko uspešno",
+            "enter_private":"Vnesite ključ",
+            "error_private":"Račun ni bilo mogoče uvoziti, morda je napačni ključ",
+            "enter_keystore":"Najprej uvozite datoteko keystore",
+            "error_password":"Ni bilo mogoče uvoziti računa, morda je napačno geslo",
+            "remove_success":"Uspešno je bil odstranjen",
+            "create_success":"Ustvarjeno je uspešno",
+            "save":"Prosimo, shranite ključni ključ ali zasebni ključ in ga ne delite z nikomer!"
+        }
+    }
+
+}

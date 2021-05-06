@@ -1,0 +1,144 @@
+{
+    "confirm":"Confirmación",
+    "cancel":"Cancelación",
+    "dialog_tit":"Preguntar",
+    "close":"Pechado",
+    "confirm_you_active":"Confirma a túa operación",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Inicio",
+        "transfer":"Transferencia",
+        "contacts":"Contactos",
+        "setting":"Configuración",
+        "total":"Total"
+    },
+    "page_setting":{
+        "tit":"Configuración",
+        "lang":"Linguaxe",
+        "select":"Selecciona"
+    },
+    "page_contacts":{
+        "tit":"Contactos",
+        "add_dialog":"Engadir un contacto",
+
+        "add_cont":{
+            "tit":"Introduce a información de contacto",
+            "tag":"Etiquetas",
+            "address":"Contactos",
+            "tag_placeholder":"Introduce a etiqueta de comentario do contacto",
+            "address_placeholder":"Introduce a conta de contacto"
+        },
+        "delete_dialog":{
+            "title":"Estás a eliminar"
+        },
+        "msg_info":{
+            "no_tag":"Introduce o nome da conta",
+            "no_address":"Introduce o enderezo da conta",
+            "exist":"O contacto xa existe,"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Transferir",
+        "to_address":"Into",
+        "amount":"Cantidade",
+        "send_all":"Enviar todo",
+        "remark":"Nota",
+        "fees":"Taxas",
+        "total":"Total",
+        "select":"Selecciona",
+        "no_account_info":"Sen conta, crea ou importa unha conta",
+        "contacts_dig":{
+            "select_placeholder":"Selecciona"
+        },
+        "confirm_dia":{
+            "title":"Confirma",
+            "enter_passworld_tit":"Introduce o teu contrasinal",
+            "enter_passworld_place":"Introduce o teu contrasinal"
+        },
+        "msg_info":{
+            "decrypt_err":"Fallou a análise de carteira, pode ser un erro de contrasinal",
+            "send_success":"Enviar éxito",
+            "send_error":"Fallou a transacción: verifique se hai un saldo suficiente e unha taxa de mineiros"
+        }
+    },
+    "page_account":{
+        "transfer_log":"Historial de transaccións",
+        "transfer_log_null":"Sen historial de transaccións",
+
+        "active_icon":{
+            "go_transfer":"Iniciar transferencia",
+            "import_keystore":"Tenda de teclas",
+            "qrcode":"Código QR"
+        },
+        "edit_dia":{
+            "tit":"Modificar nota",
+            "subtit":"Marca unha nota para a túa conta"
+        },
+        "keystore":{
+            "tit":"Fai copias de seguridade da fiestra de teclas",
+            "copy":"Duplicar",
+            "download":"Descargar o teclado"
+        },
+        "msg_info":{
+            "ads_copy_success":"Copiouse a dirección",
+            "key_copy_success":"Copiada con éxito"
+        }
+    },
+    "page_home":{
+        "import_account":"Importar conta",
+        "add_account":"Nova conta",
+        "acc":"Conta",
+        "create_dia":{
+            "create_tit":"Crea unha conta",
+            "backup_tit":"Fai unha copia de seguridade da túa nova conta",
+
+            "create_tag":"Nome da conta",
+            "create_pwd":"Establecer o contrasinal",
+            "create_repwd":"Confirmar o contrasinal",
+
+            "placeholder_tag":"Establece o nome da conta",
+            "placeholder_pwd":"Configure o contrasinal da conta",
+            "placeholder_repwd":"Confirma o contrasinal da conta",
+            "strong_password":"Introduce un contrasinal forte, polo menos 8 díxitos",
+
+            "account_address":"Conta",
+            "account_privateKey":"Tecla privada",
+            "account_download_keystore":"Descargue o ficheiro de tecla"
+        },
+        "import_dia":{
+            "tit":"Importar conta",
+            "select_type":"Selecciona o método de importación",
+            "type_private":"Tecla privada",
+            "type_keystore":"Tenda de teclas",
+
+            "placeholder_private":"Pegue aquí a chave privada",
+            "placeholder_keystore":"Arrastra aquí o ficheiro de teclado",
+
+            "input_pwd":"Introduce o contrasinal",
+            "placeholder_pwd":"Insira o contrasinal da súa conta"
+
+        },
+        "remove_dia":{
+            "tit":"Estás seguro de que queres eliminar?",
+            "remove_confrim":"Estou seguro de eliminar",
+            "backup":"Asegúrese de que a conta se fixo copias de seguridade para evitar danos á propiedade"
+        },
+        "msg_info":{
+            "exist":"Esta conta xa existe eo nome é",
+            "enter_password":"Introduce o teu contrasinal",
+            "incons_password":"O contrasinal introducido dúas veces é inconsistente",
+            "error":"Erro:",
+            "imported_success":"Importar ficheiro con éxito",
+            "enter_private":"Introduce a tecla",
+            "error_private":"Erro ao importar a conta, pode ser a chave incorrecta",
+            "enter_keystore":"Importe primeiro o ficheiro de teclado",
+            "error_password":"Fallou a importación de conta, pode ser un contrasinal incorrecto",
+            "remove_success":"Eliminouse con éxito",
+            "create_success":"Creado con éxito",
+            "save":"Garda o seu teclado ou a chave privada e non o comparte con ninguén."
+        }
+    }
+
+}

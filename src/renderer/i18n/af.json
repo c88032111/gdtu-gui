@@ -1,0 +1,144 @@
+{
+    "confirm":"bevestig",
+    "cancel":"gekanselleer",
+    "dialog_tit":"prompt",
+    "close":"Close",
+    "confirm_you_active":"Bevestig asseblief u operasie",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"huis",
+        "transfer":"oordrag",
+        "contacts":"Kontak",
+        "setting":"opstel",
+        "total":"totale"
+    },
+    "page_setting":{
+        "tit":"opstel",
+        "lang":"taal",
+        "select":"Kies asseblief"
+    },
+    "page_contacts":{
+        "tit":"Kontak",
+        "add_dialog":"Voeg 'n kontak by",
+
+        "add_cont":{
+            "tit":"Voer kontakbesonderhede in",
+            "tag":"tag",
+            "address":"Kontak",
+            "tag_placeholder":"Voer asseblief die kontak se kommentaar tag in",
+            "address_placeholder":"Voer asseblief die kontakrekening in"
+        },
+        "delete_dialog":{
+            "title":"Jy verwyder"
+        },
+        "msg_info":{
+            "no_tag":"Voer asseblief die rekening naam in",
+            "no_address":"Voer asseblief die rekening adres in",
+            "exist":"Die kontak bestaan ​​reeds,"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Oordrag",
+        "to_address":"in",
+        "amount":"geld",
+        "send_all":"Stuur alles",
+        "remark":"opmerking",
+        "fees":"fooie",
+        "total":"totale",
+        "select":"Kies asseblief",
+        "no_account_info":"Geen rekening, skep of invoer rekening",
+        "contacts_dig":{
+            "select_placeholder":"Kies asseblief"
+        },
+        "confirm_dia":{
+            "title":"Bevestig asseblief",
+            "enter_passworld_tit":"Voer asseblief u wagwoord in",
+            "enter_passworld_place":"Voer asseblief u wagwoord in"
+        },
+        "msg_info":{
+            "decrypt_err":"Wallet parsing misluk, kan 'n wagwoord fout wees",
+            "send_success":"Stuur sukses",
+            "send_error":"Transaksie misluk: Kontroleer asseblief of daar voldoende balans en mynwerker se fooi is"
+        }
+    },
+    "page_account":{
+        "transfer_log":"Transaksiegeskiedenis",
+        "transfer_log_null":"Geen transaksiegeskiedenis nie",
+
+        "active_icon":{
+            "go_transfer":"Inisieer oordrag",
+            "import_keystore":"sleutelstoorlêers",
+            "qrcode":"QR kode"
+        },
+        "edit_dia":{
+            "tit":"Wysig nota",
+            "subtit":"Merk 'n nota vir jou rekening"
+        },
+        "keystore":{
+            "tit":"Rugsteun die sleutelwinkel",
+            "copy":"kopie",
+            "download":"Laai sleutelwinkel af"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adres is gekopieer",
+            "key_copy_success":"Suksesvol gekopieer"
+        }
+    },
+    "page_home":{
+        "import_account":"Invoer rekening",
+        "add_account":"Nuwe rekening",
+        "acc":"rekening",
+        "create_dia":{
+            "create_tit":"Skep 'n rekening",
+            "backup_tit":"Rugsteun jou nuwe rekening",
+
+            "create_tag":"Rekeningnaam",
+            "create_pwd":"Stel wagwoord in",
+            "create_repwd":"Bevestig wagwoord",
+
+            "placeholder_tag":"Stel asseblief die rekening naam in",
+            "placeholder_pwd":"Stel asseblief die wagwoord in",
+            "placeholder_repwd":"Bevestig asseblief die rekening se wagwoord",
+            "strong_password":"Gee 'n sterk wagwoord, ten minste 8 syfers",
+
+            "account_address":"rekening",
+            "account_privateKey":"Privaat sleutel",
+            "account_download_keystore":"Laai die sleutelwinkellêer af"
+        },
+        "import_dia":{
+            "tit":"Invoer rekening",
+            "select_type":"Kies asseblief invoer metode",
+            "type_private":"Privaat sleutel",
+            "type_keystore":"sleutelstoorlêers",
+
+            "placeholder_private":"Plak asseblief die privaat sleutel hier",
+            "placeholder_keystore":"Sleep asseblief die sleutelwinkellêer hier",
+
+            "input_pwd":"Voer wagwoord in",
+            "placeholder_pwd":"Voer asseblief u rekening se wagwoord in"
+
+        },
+        "remove_dia":{
+            "tit":"Is jy seker jy wil dit verwyder?",
+            "remove_confrim":"Ek is seker om te verwyder",
+            "backup":"Maak asseblief seker dat die rekening gerugsteun is om skade aan eiendom te voorkom"
+        },
+        "msg_info":{
+            "exist":"Hierdie rekening bestaan ​​reeds, die naam is",
+            "enter_password":"Voer asseblief u wagwoord in",
+            "incons_password":"Die twee keer ingevoerde wagwoord is teenstrydig",
+            "error":"fout:",
+            "imported_success":"Voer die lêer suksesvol in",
+            "enter_private":"Voer asseblief die sleutel in",
+            "error_private":"Kon nie die rekening invoer nie, dit kan die verkeerde sleutel wees",
+            "enter_keystore":"Voer asseblief die sleutelwinkel-lêer eerste in",
+            "error_password":"Kon nie rekening invoer nie, dit mag dalk 'n verkeerde wagwoord wees",
+            "remove_success":"Suksesvol verwyder",
+            "create_success":"Geskep suksesvol",
+            "save":"Slaan asseblief jou sleutelwinkel of privaat sleutel op en moenie dit met enigiemand deel nie!"
+        }
+    }
+
+}

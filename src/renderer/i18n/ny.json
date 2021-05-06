@@ -1,0 +1,144 @@
+{
+    "confirm":"Umboni",
+    "cancel":"Kuletsedwa",
+    "dialog_tit":"Mwamsanga",
+    "close":"Yatseka",
+    "confirm_you_active":"Chonde tsimikizani ntchito yanu",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Kunyumba",
+        "transfer":"Tumizani",
+        "contacts":"Othandizira",
+        "setting":"Makhalidwe",
+        "total":"Chiwerengero"
+    },
+    "page_setting":{
+        "tit":"Makhalidwe",
+        "lang":"Chilankhulo",
+        "select":"Chonde sankhani"
+    },
+    "page_contacts":{
+        "tit":"Othandizira",
+        "add_dialog":"Onjezani kukhudzana",
+
+        "add_cont":{
+            "tit":"Lowani zambiri zothandizira",
+            "tag":"Tags",
+            "address":"Othandizira",
+            "tag_placeholder":"Chonde lowetsani ndemanga yotsutsa",
+            "address_placeholder":"Chonde lowetsani akaunti yothandizira"
+        },
+        "delete_dialog":{
+            "title":"Mukuchotsa"
+        },
+        "msg_info":{
+            "no_tag":"Chonde lowetsani dzina la akaunti",
+            "no_address":"Chonde lowetsani adilesi ya akaunti",
+            "exist":"Ulalowo ulipo kale,"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Tumizani",
+        "to_address":"Kulowa",
+        "amount":"Zambiri",
+        "send_all":"Tumizani zonse",
+        "remark":"Zindikirani",
+        "fees":"Malipiro",
+        "total":"Chiwerengero",
+        "select":"Chonde sankhani",
+        "no_account_info":"Palibe akaunti, chonde kulenga kapena kulowetsa akaunti",
+        "contacts_dig":{
+            "select_placeholder":"Chonde sankhani"
+        },
+        "confirm_dia":{
+            "title":"Chonde tsimikizirani",
+            "enter_passworld_tit":"Chonde lowetsani mawu anu achinsinsi",
+            "enter_passworld_place":"Chonde lowetsani mawu anu achinsinsi"
+        },
+        "msg_info":{
+            "decrypt_err":"Kusungidwa kwa ngongole kunalephera, kukhoza kukhala chinsinsi chachinsinsi",
+            "send_success":"Tumizani kupambana",
+            "send_error":"Kugulitsa kunalephera: Chonde onani ngati pali malipiro okwanira komanso malipiro a minera"
+        }
+    },
+    "page_account":{
+        "transfer_log":"Mbiri yamagulu",
+        "transfer_log_null":"Palibe mbiri yakugulitsa",
+
+        "active_icon":{
+            "go_transfer":"Yambitsani kutumiza",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
+        "edit_dia":{
+            "tit":"Sinthani mawu",
+            "subtit":"Lembani chizindikiro cha akaunti yanu"
+        },
+        "keystore":{
+            "tit":"Bwezerani seweroli",
+            "copy":"Duplicate",
+            "download":"Tsitsani makina osindikizira"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adilesi yophimbidwa",
+            "key_copy_success":"Ikopera bwino"
+        }
+    },
+    "page_home":{
+        "import_account":"Lowani akaunti",
+        "add_account":"Nkhani yatsopano",
+        "acc":"Akaunti",
+        "create_dia":{
+            "create_tit":"Pangani akaunti",
+            "backup_tit":"Bwezerani akaunti yanu yatsopano",
+
+            "create_tag":"Dzina la akaunti",
+            "create_pwd":"Ikani mawu achinsinsi",
+            "create_repwd":"Tsimikizani mawu achinsinsi",
+
+            "placeholder_tag":"Chonde lekani dzina la akaunti",
+            "placeholder_pwd":"Chonde lekani mawu achinsinsi",
+            "placeholder_repwd":"Chonde tsimikizirani mawu achinsinsi",
+            "strong_password":"Lowetsani mawu achinsinsi, osachepera maulendo 8",
+
+            "account_address":"Akaunti",
+            "account_privateKey":"Chinsinsi chachinsinsi",
+            "account_download_keystore":"Tsitsani fayilo ya keystore"
+        },
+        "import_dia":{
+            "tit":"Lowani akaunti",
+            "select_type":"Chonde sankhani njira yolowera",
+            "type_private":"Chinsinsi chachinsinsi",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Chonde dinani chinsinsi chapayekha apa",
+            "placeholder_keystore":"Chonde kukoka fayilo ya keystore pano",
+
+            "input_pwd":"Lowani mawu achinsinsi",
+            "placeholder_pwd":"Chonde lowetsani mawu achinsinsi anu"
+
+        },
+        "remove_dia":{
+            "tit":"Kodi mukutsimikiza kuti mukufuna kuchotsa?",
+            "remove_confrim":"Ndikutsimikiza kuchotsa",
+            "backup":"Chonde onetsetsani kuti nkhaniyi yathandizidwa kuti zisamangidwe"
+        },
+        "msg_info":{
+            "exist":"Nkhaniyi ilipo kale, dzina lake ndilo",
+            "enter_password":"Chonde lowetsani mawu anu achinsinsi",
+            "incons_password":"Mawu achinsinsi adalowa kawiri ndi osagwirizana",
+            "error":"Cholakwika:",
+            "imported_success":"Lowani fayilo bwinobwino",
+            "enter_private":"Chonde lowetsani fungulo",
+            "error_private":"Zalephera kutumiza akauntiyo, ikhoza kukhala fungulo lolakwika",
+            "enter_keystore":"Chonde lowetsani fayilo ya keystore choyamba",
+            "error_password":"Zalephera kulowetsa akaunti, ikhoza kukhala mawu achinsinsi",
+            "remove_success":"Kuchotsedwa bwino",
+            "create_success":"Zapangidwa bwino",
+            "save":"Chonde sungani chinsinsi chanu chachinsinsi kapena chinsinsi chapadera ndipo musagwirizane nawo ndi wina aliyense!"
+        }
+    }
+
+}

@@ -1,0 +1,144 @@
+{
+    "confirm":"ырастоо",
+    "cancel":"жокко чыгарылды",
+    "dialog_tit":"тез",
+    "close":"жакын",
+    "confirm_you_active":"Сураныч, операция болушу керек",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"үй",
+        "transfer":"ташуу",
+        "contacts":"Байланыш",
+        "setting":"орнотуу",
+        "total":"Бардыгы болуп"
+    },
+    "page_setting":{
+        "tit":"орнотуу",
+        "lang":"тил",
+        "select":"Сураныч, тандоо"
+    },
+    "page_contacts":{
+        "tit":"Байланыш",
+        "add_dialog":"Байланышты кошуу",
+
+        "add_cont":{
+            "tit":"Байланыш маалыматын киргизүү",
+            "tag":"Tag",
+            "address":"Байланыш",
+            "tag_placeholder":"Сураныч, байланыш этикеткасы киргизе",
+            "address_placeholder":"Байланыштын эсебин кирет"
+        },
+        "delete_dialog":{
+            "title":"Сиз алып жатышат"
+        },
+        "msg_info":{
+            "no_tag":"эсеп атын",
+            "no_address":"Сураныч, эсеп дарегин киргизүү",
+            "exist":"Байланыш мурунтан эле бар,"
+        }
+    },
+    "page_transfer":{
+        "from_address":"күйгүзүү чыгып",
+        "to_address":"эске",
+        "amount":"акча",
+        "send_all":"бардык жөнөтүү",
+        "remark":"пикир",
+        "fees":"Алымдар",
+        "total":"Бардыгы болуп",
+        "select":"Сураныч, тандоо",
+        "no_account_info":"Эсеби жок, эсеп же импорт сураныч түзүү",
+        "contacts_dig":{
+            "select_placeholder":"Сураныч, тандоо"
+        },
+        "confirm_dia":{
+            "title":"Сураныч, ырастоо",
+            "enter_passworld_tit":"Сураныч, сөздү киргизип",
+            "enter_passworld_place":"Сураныч, сөздү киргизип"
+        },
+        "msg_info":{
+            "decrypt_err":"Капчык чечим болбой, бул туура эмес сөз болушу мүмкүн",
+            "send_success":"ийгилик жөнөтүү",
+            "send_error":"бүтүм санааркап: жетиштүү балансы жана кенчилер акысы бар-жетпесин билиш үчүн, текшерүү"
+        }
+    },
+    "page_account":{
+        "transfer_log":"бүтүмдүн Record",
+        "transfer_log_null":"эч кандай бүтүмдөр",
+
+        "active_icon":{
+            "go_transfer":"которууну демилгелөө",
+            "import_keystore":"ачкыч",
+            "qrcode":"Эки өлчөмдүү коду"
+        },
+        "edit_dia":{
+            "tit":"Edit Note",
+            "subtit":"сиздин каттоо үчүн сөз белгилейт"
+        },
+        "keystore":{
+            "tit":"ачкыч сактоо",
+            "copy":"копия",
+            "download":"Download ачкыч"
+        },
+        "msg_info":{
+            "ads_copy_success":"Дареги көчүрүлдү",
+            "key_copy_success":"ийгиликтүү көчүрүлдү"
+        }
+    },
+    "page_home":{
+        "import_account":"Import каттоо эсеби",
+        "add_account":"жаңы каттоо эсеби",
+        "acc":"каттоо",
+        "create_dia":{
+            "create_tit":"Эсеп жазуусун жаратуу",
+            "backup_tit":"Сиздин жаңы эсеп камдык",
+
+            "create_tag":"каттоо эсебинин аталышы",
+            "create_pwd":"пароль",
+            "create_repwd":"Сырсөздү ырастоо",
+
+            "placeholder_tag":"Set эсеп аты",
+            "placeholder_pwd":"Set эсеп пароль",
+            "placeholder_repwd":"эсеп-сөздү баамдагыла",
+            "strong_password":"Enter, жок эле дегенде сегиз, күчтүү сөздү",
+
+            "account_address":"каттоо",
+            "account_privateKey":"жеке ачкыч",
+            "account_download_keystore":"Download ачкыч билэ"
+        },
+        "import_dia":{
+            "tit":"Import каттоо эсеби",
+            "select_type":"Сураныч, Import режимин тандоо",
+            "type_private":"жеке ачкыч",
+            "type_keystore":"ачкыч",
+
+            "placeholder_private":"Сураныч, бул жерде жеке ачкычты көчүрүп",
+            "placeholder_keystore":"Сураныч, бул жерде эске билэни ачкыч",
+
+            "input_pwd":"сырсөз киргизүү",
+            "placeholder_pwd":"Сураныч, эсеп сырсөз"
+
+        },
+        "remove_dia":{
+            "tit":"Чын эле, аны алып келеби?",
+            "remove_confrim":"Мен алып ишенем",
+            "backup":"Текшерип эсеп мүлктүк зыянга учуратпоо үчүн бекемделе элек"
+        },
+        "msg_info":{
+            "exist":"Бул каттоо эсеби мурунтан эле бар, аты",
+            "enter_password":"Сураныч, сөздү киргизип",
+            "incons_password":"Сырсөздөр дал келген жок",
+            "error":"Error:",
+            "imported_success":"Import билэ Ийгилик",
+            "enter_private":"Сураныч, ачкычты кирет",
+            "error_private":"Каттоо импорт албаса, ката негизги болушу мүмкүн",
+            "enter_keystore":"Сураныч, ачкыч билэни импорттоо",
+            "error_password":"Каттоо импорт албаса, бул туура эмес сөз болушу мүмкүн",
+            "remove_success":"ийгиликтүү алынып салынды",
+            "create_success":"ийгилик түзүлүүдө",
+            "save":"Сураныч, ачкыч же жеке, эч ким менен бөлүшө эмес, сактай көр!"
+        }
+    }
+
+}
