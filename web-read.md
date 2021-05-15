@@ -8,7 +8,7 @@ web3.reset(true);               //用来重置web3的状态,参数可以控制 w
 web3.admin
 web3.(string, options)          //返回值： 使用Keccak-256 SHA3算法哈希过的结果。
     String - 传入的需要使用Keccak-256 SHA3算法进行哈希运算的字符串。
-    Object - 可选项设置。如果要解析的是hex格式的十六进制字符串。需要设置encoding为hex,因为JS中会默认忽略0x,如：{encoding: 'hex'}
+    Object - 可选项设置。如果要解析的是hex格式的十六进制字符串。需要设置encoding为hex,因为JS中会默认忽略gd,如：{encoding: 'hex'}
 
 
 web3.isConnected()                  //检查到节点的连接是否存在

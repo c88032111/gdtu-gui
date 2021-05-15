@@ -22,23 +22,23 @@ if (process.type !== 'renderer') {
 }
 
 // Initialize lowdb read and write json file name and storage path
-const adapter = new FileSync(path.join(STORE_PATH, '/czr_data.json'))
+const adapter = new FileSync(path.join(STORE_PATH, '/gdtu_data.json'))
 
 // Lowdb takes over the file
 const db = Datastore(adapter)
 db._.mixin(LodashId)
 
 // Initialize data, pre-specify the basic structure of the database
-if (!db.read().has('czr_accounts').value()) {
-  db.set('czr_accounts', []).write()
+if (!db.read().has('gdtu_accounts').value()) {
+  db.set('gdtu_accounts', []).write()
 }
-if (!db.has('czr_contacts').value()) {
-  db.set('czr_contacts', {}).write()
+if (!db.has('gdtu_contacts').value()) {
+  db.set('gdtu_contacts', {}).write()
 }
-if (!db.has('czr_setting').value()) {
-  db.set('czr_setting', {}).write()
-  db.set('czr_setting.lang', getLanguage()).write()
-  db.set('czr_setting.lang_conf', languges).write()
+if (!db.has('gdtu_setting').value()) {
+  db.set('gdtu_setting', {}).write()
+  db.set('gdtu_setting.lang', getLanguage()).write()
+  db.set('gdtu_setting.lang_conf', languges).write()
 
 }
 

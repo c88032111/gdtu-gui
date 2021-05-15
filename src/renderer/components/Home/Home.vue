@@ -1,5 +1,5 @@
 <template>
-    <div class="page-czr-home">
+    <div class="page-gdtu-home">
         <div class="home-banner">
             <i class="iconfont icon-logo">&#xe650;</i>
             <div>
@@ -17,8 +17,8 @@
                         <i class="iconfont delete-acc" @click.stop="showRemoveDia(account.address)">&#xe613;</i>
                         <div class="account-cont">
                             <p class="account-remark">{{account.tag}}</p>
-                            <h1 class="account-assets">{{account.balance | toEthVal}}</h1>
-                            <p class="account-unit">{{ $t('unit.czr') }}</p>
+                            <h1 class="account-assets">{{account.balance | toGdtuVal}}</h1>
+                            <p class="account-unit">{{ $t('unit.gdtu') }}</p>
                             <p class="account-address">{{account.address}}</p>
                         </div>  
                     </router-link>
@@ -185,7 +185,7 @@ export default {
   },
   created(){
     self=this;
-    this.database = this.$db.get('czr_accounts').value();;
+    this.database = this.$db.get('gdtu_accounts').value();;
     this.initCreateInfo()
     this.initImportInfo()
     this.refresh()
@@ -235,7 +235,7 @@ export default {
               //TODO If it is written to the database, it causes the deletion of the import to be out of sync;
               /* this.$db
                   .read()
-                  .get("czr_accounts")
+                  .get("gdtu_accounts")
                   .find({ address: item.address })
                   .assign({ balance: data })
                   .write(); */
@@ -246,7 +246,7 @@ export default {
 
     initAccount:function(params){
       let  self=this;
-      let account = this.$db.get('czr_accounts')
+      let account = this.$db.get('gdtu_accounts')
         .find({ address: params.address })
         .value()
       if(account){
@@ -254,7 +254,7 @@ export default {
           return
       }
       this.$db
-          .get("czr_accounts")
+          .get("gdtu_accounts")
           .push(params)
           .write();
       this.getBalance(params)
@@ -358,8 +358,8 @@ export default {
           return
         }
 
-        if (this.importInfo.privateKey.indexOf('0x') !== 0) {
-          this.importInfo.privateKey = '0x' + this.importInfo.privateKey
+        if (this.importInfo.privateKey.indexOf('gd') !== 0) {
+          this.importInfo.privateKey = 'gd' + this.importInfo.privateKey
         }
         try {
           account = this.$web3.gdtu.accounts.privateKeyToAccount(this.importInfo.privateKey)
@@ -423,7 +423,7 @@ export default {
     },
     removeAccountFn:function(){
         this.$db
-          .get("czr_accounts")
+          .get("gdtu_accounts")
           .remove({ address: this.removeAccount })
           .write();
         this.$message.success(this.$t('page_home.msg_info.remove_success'))
@@ -433,7 +433,7 @@ export default {
     // Remove End
   },
   filters: {
-    toEthVal:function(val){
+    toGdtuVal:function(val){
       let tempVal=self.$web3.utils.fromWei(val, 'gdtuer');
       return tempVal;//TODO Keep 4 decimal places
      }
@@ -443,7 +443,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.page-czr-home {
+.page-gdtu-home {
 }
 .home-banner {
   width: 100%;

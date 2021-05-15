@@ -25,13 +25,13 @@
             <el-input v-model="amount"
              min="0" :max="accountInfo.balance"
              class="width-180" ></el-input>
-            <span>{{$t('unit.czr')}}</span>
+            <span>{{$t('unit.gdtu')}}</span>
             <el-checkbox v-model="checkedAll" 
             @change='sendAllAmount'
             class="send-all-assets">
               {{$t('page_transfer.send_all')}}&nbsp;
-              <span class="czr-txt-muted">
-                (&nbsp;{{accountInfo.balance | toEthVal}} {{$t('unit.czr')}}&nbsp;)
+              <span class="gdtu-txt-muted">
+                (&nbsp;{{accountInfo.balance | toGdtuVal}} {{$t('unit.gdtu')}}&nbsp;)
               </span>
               
             </el-checkbox>
@@ -48,7 +48,7 @@
                   >
                 </el-slider>
               </div>
-            <span class='speculate-wrap'>{{$t('page_transfer.fees')}} <strong v-text="fee" ></strong>{{$t('unit.czr')}}</span>
+            <span class='speculate-wrap'>{{$t('page_transfer.fees')}} <strong v-text="fee" ></strong>{{$t('unit.gdtu')}}</span>
           </el-form-item>
 
           <el-form-item>
@@ -100,16 +100,16 @@
               <p>{{toAccount || "-"}}</p>
             </el-form-item>
             <el-form-item :label="$t('page_transfer.amount')">
-              <p>{{amount}} {{$t('unit.czr')}}</p>
+              <p>{{amount}} {{$t('unit.gdtu')}}</p>
             </el-form-item>
             <el-form-item :label="$t('page_transfer.remark')">
               <p>{{extraData || '-'}}</p>
             </el-form-item>
               <el-form-item :label="$t('page_transfer.fees')">
-              <p>{{fee}} {{$t('unit.czr')}}</p>
+              <p>{{fee}} {{$t('unit.gdtu')}}</p>
             </el-form-item>
                 <el-form-item :label="$t('page_transfer.total')">
-              <p>{{confrimTotal}} {{$t('unit.czr')}}</p>
+              <p>{{confrimTotal}} {{$t('unit.gdtu')}}</p>
             </el-form-item>
           </el-form>          
           <div slot="footer" class="dialog-footer">
@@ -165,10 +165,10 @@ export default {
         },
 
         toAccount: '',
-        amount: 0,
+        amount: 1,
         gasPrice: '',
         feePercent: 100,
-        gasLimit: 200000,//参考  myetherwallet
+        gasLimit: 4000000,//4700000
         extraData: '',
 
 
@@ -177,8 +177,8 @@ export default {
 
   created(){
     self=this;
-    this.database = this.$db.get('czr_accounts').value();
-    this.contacts = this.$db.get('czr_contacts.contact_ary').value();
+    this.database = this.$db.get('gdtu_accounts').value();
+    this.contacts = this.$db.get('gdtu_contacts.contact_ary').value();
 
     if(this.database.length){
       this.fromInfo={
@@ -218,7 +218,8 @@ export default {
       let amountWei=this.$web3.utils.toWei(this.amount.toString(), 'gdtuer');
       let feeWei=this.$web3.utils.toWei(this.fee.toString(), 'gdtuer');
       let totalVal=Number(amountWei)+Number(feeWei);
-      return this.$web3.utils.fromWei(totalVal.toString(), 'gdtuer');;
+      console.log('totalVal.toString(16)',totalVal.toString(16));
+      return this.$web3.utils.fromWei(totalVal.toString(16), 'gdtuer');;
     }
 
   },
@@ -253,7 +254,7 @@ export default {
     sendAllAmount: function() {
       if (this.checkedAll) {
         let weiVal=this.accountInfo.balance - this.$web3.utils.toWei(this.fee, 'gdtuer');
-        let targetVal=self.$web3.utils.fromWei(weiVal.toString(10), 'gdtuer');
+        let targetVal=self.$web3.utils.fromWei(weiVal.toString(16), 'gdtuer');
         this.amount = Number(targetVal)>=0 ? targetVal : 0 ;
       } else {
         this.amount = 0;
@@ -292,11 +293,11 @@ export default {
       }, account.privateKey)
         .then(hex => {
             /*{
-                messageHash: '0x6893a6ee8df79b0f5d64a180cd1ef35d030f3e296a5361cf04d02ce720d32ec5',
-                r: '0x9ebb6ca057a0535d6186462bc0b465b561c94a295bdb0621fc19208ab149a9c',
-                s: '0x440ffd775ce91a833ab410777204d5341a6f9fa91216a6f3ee2c051fea6a0428',
-                v: '0x25',
-                rawTransaction: '0xf86a8086d55698372431831e848094f0109fc8df283027b6285cc889f5aa624eac1f55843b9aca008025a009ebb6ca057a0535d6186462bc0b465b561c94a295bdb0621fc19208ab149a9ca0440ffd775ce91a833ab410777204d5341a6f9fa91216a6f3ee2c051fea6a0428'
+                messageHash: 'gd6893a6ee8df79b0f5d64a180cd1ef35d030f3e296a5361cf04d02ce720d32ec5',
+                r: 'gd9ebb6ca057a0535d6186462bc0b465b561c94a295bdb0621fc19208ab149a9c',
+                s: 'gd440ffd775ce91a833ab410777204d5341a6f9fa91216a6f3ee2c051fea6a0428',
+                v: 'gd25',
+                rawTransaction: 'gdf86a8086d55698372431831e848094f0109fc8df283027b6285cc889f5aa624eac1f55843b9aca008025a009ebb6ca057a0535d6186462bc0b465b561c94a295bdb0621fc19208ab149a9ca0440ffd775ce91a833ab410777204d5341a6f9fa91216a6f3ee2c051fea6a0428'
             }
             */
           return this.$web3.gdtu.sendSignedTransaction(hex.rawTransaction)
@@ -304,31 +305,31 @@ export default {
         .then(data => {
 /*
            {
-              transactionHash: "0x79606c95358ff6b6f6bd585fa2801a1e2fa418753ff5bf84a00472f8a0eda96f",
+              transactionHash: "gd79606c95358ff6b6f6bd585fa2801a1e2fa418753ff5bf84a00472f8a0eda96f",
               transactionIndex: 0,
-              blockHash: "0x657d7609ff7abc77fcde66dc7559e8e631acd8705186c9a17dcaf2111126c761",
+              blockHash: "gd657d7609ff7abc77fcde66dc7559e8e631acd8705186c9a17dcaf2111126c761",
               blockNumber: 1,
               contractAddress : null
               cumulativeGasUsed : 21000
               gasUsed : 21000
               logs : Array(0)
-              logsBloom : "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              logsBloom : "gd00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
               status : true
            }
-*/            
+*/
             this.$web3.gdtu.getTransaction(data.transactionHash).then(receiptData =>{
                 this.$web3.gdtu.getBlock(data.blockHash).then(blockObj =>{
                     receiptData.timestamp=blockObj.timestamp;
 
-                    let testFrom = self.$db.get("czr_accounts").find({ address: account.address }).value();
-                    let testTo = self.$db.get("czr_accounts").find({ address: self.toAccount }).value();
+                    let testFrom = self.$db.get("gdtu_accounts").find({ address: account.address }).value();
+                    let testTo = self.$db.get("gdtu_accounts").find({ address: self.toAccount }).value();
 
                     if (testFrom) {
-                      self.$db.get("czr_accounts").find({ address: account.address }).get("tx_list").unshift(receiptData).write();
+                      self.$db.get("gdtu_accounts").find({ address: account.address }).get("tx_list").unshift(receiptData).write();
                     }
 
                     if (testTo) {
-                      self.$db.get("czr_accounts").find({ address: self.toAccount }).get("tx_list").unshift(receiptData).write();
+                      self.$db.get("gdtu_accounts").find({ address: self.toAccount }).get("tx_list").unshift(receiptData).write();
                     }
 
                     this.$message.success(this.$t('page_transfer.msg_info.send_success'))
@@ -349,7 +350,7 @@ export default {
 
   },
   filters: {
-    toEthVal:function(val){
+    toGdtuVal:function(val){
       let tempVal=self.$web3.utils.fromWei(val, 'gdtuer');
       return tempVal;//TODO 保留4位小数
     }

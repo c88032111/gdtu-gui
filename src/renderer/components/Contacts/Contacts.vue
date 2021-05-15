@@ -88,7 +88,7 @@ export default {
     };
   },
   created(){
-    this.database=this.$db.get("czr_contacts.contact_ary").value();
+    this.database=this.$db.get("gdtu_contacts.contact_ary").value();
     this.initCreateInfo()
   },
   methods: {
@@ -118,28 +118,28 @@ export default {
         tag: this.createInfo.tag,
         address: this.createInfo.address
       };
-      if (!this.$db.read().has("czr_contacts.contact_ary").value()) {
-        this.$db.read().set("czr_contacts.contact_ary", []).write();
+      if (!this.$db.read().has("gdtu_contacts.contact_ary").value()) {
+        this.$db.read().set("gdtu_contacts.contact_ary", []).write();
       }
       this.initAddContact(tempCon)
     },
 
     initAddContact:function(params){
       let  self=this;
-      let contact = this.$db.get('czr_contacts.contact_ary')
+      let contact = this.$db.get('gdtu_contacts.contact_ary')
         .find({ address: params.address }).value()
       if(contact){
           this.$message.error(this.$t('page_contacts.msg_info.exist')+contact.tag)
           return
       }
       //TODO validate contacts address
-      this.$db.get('czr_contacts.contact_ary').push(params).write();
-      this.database=this.$db.get("czr_contacts.contact_ary").value();
+      this.$db.get('gdtu_contacts.contact_ary').push(params).write();
+      this.database=this.$db.get("gdtu_contacts.contact_ary").value();
       this.dialogSwitch.create = false;
     },
     deleteContact: function() {
-      this.$db.get("czr_contacts.contact_ary").remove({ address: this.deleteInfo.address }).write();
-      this.database = this.$db.read().get("czr_contacts.contact_ary").value();
+      this.$db.get("gdtu_contacts.contact_ary").remove({ address: this.deleteInfo.address }).write();
+      this.database = this.$db.read().get("gdtu_contacts.contact_ary").value();
       this.dialogSwitch.delete = false;
     }
   }

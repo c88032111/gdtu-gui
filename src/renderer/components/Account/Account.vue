@@ -23,8 +23,8 @@
           <i class="iconfont icon-edit-alias"   @click="dialogSwitch.editName = true"> &#xe604; </i>
         </div>
         <div class="account-has-assets">
-          <h1 class="account-assets">{{ accountInfo.balance | toCZRVal }}</h1>
-          <span>{{ $t('unit.czr') }}</span>
+          <h1 class="account-assets">{{ accountInfo.balance | toGDTUVal }}</h1>
+          <span>{{ $t('unit.gdtu') }}</span>
         </div>
         <div class="account-address-wrap">
           <span class="text-sub-color">{{ address }}</span>
@@ -48,7 +48,7 @@
                   <p class="transfer-time">{{item.timestamp |toDate }}</p>
                 </div>
                 <div class="transfer-assets">
-                  <div class="assets">+ {{item.value | toCZRVal }} {{ $t('unit.czr') }}</div>
+                  <div class="assets">+ {{item.value | toGDTUVal }} {{ $t('unit.gdtu') }}</div>
                 </div>
               </div>
             </div>
@@ -63,7 +63,7 @@
                     <p class="transfer-time">{{item.timestamp |toDate }}</p>
                   </div>
                   <div class="transfer-assets">
-                    <div class="assets">- {{item.value | toCZRVal }} {{ $t('unit.czr') }}</div>
+                    <div class="assets">- {{item.value | toGDTUVal }} {{ $t('unit.gdtu') }}</div>
                   </div>
                 </div>
             </div>
@@ -152,7 +152,7 @@ export default {
 
     this.accountInfo=this.$db
         .read()
-        .get("czr_accounts")
+        .get("gdtu_accounts")
         .filter({ address: this.address })
         .value()[0]
     this.initTag();
@@ -172,7 +172,7 @@ export default {
                 // reWrite balance
                 this.$db
                   .read()
-                  .get("czr_accounts")
+                  .get("gdtu_accounts")
                   .find({ address: this.address })
                   .assign({ balance: data })
                   .write();
@@ -199,7 +199,7 @@ export default {
     setEditTag: function() {
       this.$db
         .read()
-        .get("czr_accounts")
+        .get("gdtu_accounts")
         .find({ address: this.address })
         .assign({ tag: this.editTag })
         .write();
@@ -245,7 +245,7 @@ export default {
 
   },
   filters: {
-    toCZRVal: function(val) {
+    toGDTUVal: function(val) {
       let tempVal=self.$web3.utils.fromWei(val, 'gdtuer');
       return tempVal;//TODO Keep 4 decimal places
     },

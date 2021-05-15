@@ -46,11 +46,11 @@ npm run build
 
 #### 页面如下；
 
-这个项目是打算简单的熟悉以太的逻辑后，再切到做CZR的项目的（CZR是我所在公司做的一个公链项目）；
+这个项目是打算简单的熟悉以太的逻辑后，再切到做GDTU的项目的（GDTU是我所在公司做的一个公链项目）；
 
-所以这个钱包中，货币的单位`Eth`，使用的是`CZR`（为了切换方便的，其实单位是以太），
+所以这个钱包中，货币的单位`Gdtu`，使用的是`GDTU`（为了切换方便的，其实单位是以太），
 
-后续的开发都在：[CanonChain钱包](https://github.com/canonchain/canonchain-wallet);
+后续的开发都在：[GdtuChain钱包](https://github.com/gdtuchain/gdtuchain-wallet);
 
 本项目实现功能：
 - 创建GDTU地址

@@ -45,7 +45,7 @@ function i18n(from, to) {
 
                 /*
                 * esult.result = [ 'Nastavení',
-                    'CZR',
+                    'GDTU',
                     'Domů',
                     'Přenos',
                     'Kontakty',
@@ -69,7 +69,7 @@ function i18n(from, to) {
                     /*
                     result.raw.sentences :[
                         { trans: 'Setting\n', orig: 'Setting\n', backend: 3 },
-                        { trans: 'CZR\n', orig: 'CZR\n', backend: 3 },
+                        { trans: 'GDTU\n', orig: 'GDTU\n', backend: 3 },
                         { trans: 'Home\n', orig: '首页\n', backend: 3 },
                         { trans: 'Transfer\n', orig: '转账\n', backend: 3 },
                         { trans: 'Contacts\n', orig: '联系人\n', backend: 3 },
@@ -82,7 +82,7 @@ function i18n(from, to) {
                           '【p2=>设置】'
                           '【p3=>"】'
                           '【offset=>270】'
-                          '【string=>{\n    "lang": {\n        "browse": "Setting"\n    },\n    "unit":{\n        "czr":"CZR"\n    },\n    "model_header":{\n        "home":"首页",\n        "transfer":"转账",\n        "contacts":"联系人",\n        "setting":"设置",\n        "total":"合计"\n    },\n    "page_setting":{\n        "tit":"设置"\n    }\n}】'
+                          '【string=>{\n    "lang": {\n        "browse": "Setting"\n    },\n    "unit":{\n        "gdtu":"GDTU"\n    },\n    "model_header":{\n        "home":"首页",\n        "transfer":"转账",\n        "contacts":"联系人",\n        "setting":"设置",\n        "total":"合计"\n    },\n    "page_setting":{\n        "tit":"设置"\n    }\n}】'
 
 
 

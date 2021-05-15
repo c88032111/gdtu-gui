@@ -4,7 +4,7 @@ import router from './router'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 
-import Web3 from 'web3'
+import Web3 from './web3'
 
 //Introducing db database
 import db from '../datastore/index'
@@ -22,9 +22,9 @@ let web3;
 if (typeof web3 !== 'undefined') {
     web3 = new Web3(web3.currentProvider);
 } else {
-    //https://mainnet.infura.io/xxxxxxx 
+    //https://mainnet.infura.io/f2a6b1266949447db3843d2bf59a9b41
     //http://localhost:8545
-    web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/xxx"));
+    web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:800"));
 }
 
 Vue.web3 = Vue.prototype.$web3 = web3
@@ -39,7 +39,7 @@ for(const languge in languges){
     messages[languge]=require("@/i18n/"+languge+".json");
 }
 //Determine the user's language
-let locale =db.get('czr_setting.lang').value() ;
+let locale =db.get('gdtu_setting.lang').value() ;
 const i18n = new VueI18n({
     locale: locale ,// set locale
     messages,       // set locale messages

@@ -6,10 +6,10 @@
           <li><router-link to="/contacts">{{ $t('model_header.contacts') }}</router-link></li>
           <li><router-link to="/setting">{{ $t('model_header.setting') }}</router-link></li>
       </ul>
-      <div class="has-assets-czr">
+      <div class="has-assets-gdtu">
           {{ $t('model_header.total') }}
           <!-- <strong>{{totalBalance}}</strong> -->
-          {{ $t('unit.czr') }}
+          {{ $t('unit.gdtu') }}
       </div>
   </header>
 </template>
@@ -24,8 +24,8 @@ export default {
   },
   created() {
     // Init Account
-    // const czrAccounts = this.$db.get('czr_accounts').value();
-    // this.database = czrAccounts;
+    // const gdtuAccounts = this.$db.get('gdtu_accounts').value();
+    // this.database = gdtuAccounts;
     // this.refresh()
   },
   computed: {
@@ -73,7 +73,7 @@ export default {
   width: 70%;
   text-align: left;
 }
-.has-assets-czr {
+.has-assets-gdtu {
   display: none;
   width: 30%;
   text-align: right;

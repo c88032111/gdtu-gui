@@ -33,7 +33,7 @@ function createWindow () {
         width: winWidth,
         height: 600,
         icon:"./static/icons/logo.png",
-        title:"CZR Walleti Default",
+        title:"GDTU Walleti Default",
         resizable:false,
         fullscreenable:false,
         useContentSize:true

@@ -55,7 +55,7 @@ vue的model 通过computed来设置的了
                   show-stops>
                 </el-slider>
               </div>
-            <span class='speculate-wrap'>预估手续费：<strong>{{ defaultGas }}</strong> CZR</span>
+            <span class='speculate-wrap'>预估手续费：<strong>{{ defaultGas }}</strong> GDTU</span>
           </el-form-item>
 
 #### this.$refs 第一次undefind的解决

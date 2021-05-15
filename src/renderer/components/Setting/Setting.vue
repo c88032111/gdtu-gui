@@ -26,12 +26,12 @@ export default {
   name: "Setting",
   data() {
     return {
-      value: this.$db.get("czr_setting.lang").value()
+      value: this.$db.get("gdtu_setting.lang").value()
     };
   },
   computed: {
     langOptions: function() {
-      let langs = this.$db.get("czr_setting.lang_conf").value();
+      let langs = this.$db.get("gdtu_setting.lang_conf").value();
       let tempOption = [];
       for (const lang in langs) {
         tempOption.push({
@@ -47,7 +47,7 @@ export default {
       //Write to the database
       this.$db
         .read()
-        .set("czr_setting.lang", val)
+        .set("gdtu_setting.lang", val)
         .write();
       //Update current language
       this.$i18n.locale = val;
